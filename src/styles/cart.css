@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  width: 100%;
+  margin: auto;
+}
+
+.cart_box img {
+  width: 50px;
+  height: 50px;
+}
+.cart_img {
+  display: flex;
+  width: 400px;
+}
+
+.cart_img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.cart_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+}
+
+.cart_box div:nth-child(2) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.cart_box div:nth-child(3) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover {
+  background-color: darkseagreen;
+}
+.cart_box div:nth-child(3) span {
+  background-color: lightgreen;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total span:nth-child(1) {
+  font-size: 2rem;
+  color: skyblue;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.total span:nth-child(2) {
+  font-size: 2rem;
+  color: green;
+  font-weight: bold;
+}
+
+.SubmitBtn {
+  width: 300px;
+  height: 48px;
+  border: 2px solid;
+  border-radius: 24px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.main-content {
+  display: grid;
+  width: 1920px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 35px;
+  grid-template-columns: repeat(2, 930px);
+  gap: 20px;
+}
+
+.form-form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=text],
+input[type=number],
+input[type=email] {
+  width: 500px;
+  border: 1px solid;
+  border-radius: 10px;
+}
