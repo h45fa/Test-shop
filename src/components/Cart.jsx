@@ -67,7 +67,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
           </div>
           <div class="Phone-d">
             <h3>Phone</h3>
-            <input type="number" onChange={(event) => setNumber(event.target.value)}></input>
+            <input type="text" onChange={(event) => setNumber(event.target.value)}></input>
           </div>
           <div class="Address-d">
             <h3>Address</h3>
