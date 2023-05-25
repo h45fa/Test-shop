@@ -17,11 +17,11 @@ const Cart = ({ cart, setCart, handleChange }) => {
       price,
     };
     if (name.trim() === "") {
-      alert("Empty host name");
-    } else if (number.trim() === "") {
       alert("Empty name");
+    } else if (number.trim() === "") {
+      alert("Empty number");
     } else if (address.trim() === "") {
-      alert("Empty port");
+      alert("Empty address");
     } else {
       fetch("https://63d81aa75dbd72324433552c.mockapi.io/cart", {
         method: "POST",
